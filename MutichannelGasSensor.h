@@ -106,6 +106,7 @@ public:
     void powerOn(void);
     void powerOff(void);
     void doCalibrate(void);
+    void resetCalibrate(void);
     
     //get gas concentration, unit: ppm
     float measure_CO(){return calcGas(CO);}
